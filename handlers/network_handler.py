@@ -1,7 +1,6 @@
 from scapy.all import sniff, send, IP, UDP, TCP, ICMP, RandShort
 import threading
 
-from base_classes.device import Device
 
 
 class NetworkHandler:
